@@ -1,3 +1,5 @@
+# 서버
+
 import os.path
 
 from flask import Flask, send_from_directory
