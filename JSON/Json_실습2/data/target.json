@@ -1,0 +1,34 @@
+{
+    "employee": [
+        {
+            "id": 123, 
+            "name": "Queen", 
+            "department": "HR", 
+            "skills": ["communication", "teamwork"]
+        },
+        {
+            "id": 113, 
+            "name": "Elice", 
+            "department": "Developer", 
+            "skills": ["teamwork", "innovation"]
+        },
+        {
+            "id": 213, 
+            "name": "Rabbit", 
+            "department": "Developer", 
+            "skills": ["leadership", "teamwork"]
+        },
+        {
+            "id": 311, 
+            "name": "Hatter", 
+            "department": "Marketer", 
+            "skills": ["communication", "decisiveness"]
+        },
+        {
+            "id": 313, 
+            "name": "Cheshire", 
+            "department": "HR", 
+            "skills": ["responsibility", "leadership"]
+        }
+    ]
+}

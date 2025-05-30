@@ -1,0 +1,3 @@
+# main.sh에 여러분이 생각하는 명령어를 적어주세요.
+# 제출 버튼을 누르면 여러분이 적어주신 명령어를 채점 합니다.
+chmod 754 dicrectory/example.txt

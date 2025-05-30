@@ -1,0 +1,95 @@
+2025-03-28 14:32:34,875:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-28 14:32:34,875:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-28 14:32:34,875:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-28 14:32:34,875:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-28 14:32:35,100:INFO:PyCaret RegressionExperiment
+2025-03-28 14:32:35,101:INFO:Logging name: reg-default-name
+2025-03-28 14:32:35,101:INFO:ML Usecase: MLUsecase.REGRESSION
+2025-03-28 14:32:35,101:INFO:version 3.3.2
+2025-03-28 14:32:35,101:INFO:Initializing setup()
+2025-03-28 14:32:35,101:INFO:self.USI: 669a
+2025-03-28 14:32:35,101:INFO:self._variable_keys: {'exp_name_log', 'html_param', 'fold_shuffle_param', 'y_train', 'idx', 'y_test', 'n_jobs_param', 'exp_id', 'transform_target_param', 'fold_groups_param', '_ml_usecase', 'X_train', 'pipeline', 'seed', 'fold_generator', 'gpu_n_jobs_param', 'data', 'X_test', 'gpu_param', 'target_param', 'USI', 'memory', 'y', 'log_plots_param', '_available_plots', 'X', 'logging_param'}
+2025-03-28 14:32:35,101:INFO:Checking environment
+2025-03-28 14:32:35,101:INFO:python_version: 3.11.11
+2025-03-28 14:32:35,101:INFO:python_build: ('main', 'Mar  3 2025 20:44:07')
+2025-03-28 14:32:35,101:INFO:machine: arm64
+2025-03-28 14:32:35,101:INFO:platform: macOS-15.3.2-arm64-arm-64bit
+2025-03-28 14:32:35,101:INFO:Memory: svmem(total=19327352832, available=4506779648, percent=76.7, used=6615531520, free=66519040, active=4441604096, inactive=4409999360, wired=2173927424)
+2025-03-28 14:32:35,101:INFO:Physical Core: 11
+2025-03-28 14:32:35,101:INFO:Logical Core: 11
+2025-03-28 14:32:35,101:INFO:Checking libraries
+2025-03-28 14:32:35,101:INFO:System:
+2025-03-28 14:32:35,101:INFO:    python: 3.11.11 | packaged by conda-forge | (main, Mar  3 2025, 20:44:07) [Clang 18.1.8 ]
+2025-03-28 14:32:35,101:INFO:executable: /opt/miniconda3/envs/AutoML/bin/python
+2025-03-28 14:32:35,101:INFO:   machine: macOS-15.3.2-arm64-arm-64bit
+2025-03-28 14:32:35,101:INFO:PyCaret required dependencies:
+2025-03-28 14:32:35,115:INFO:                 pip: 25.0.1
+2025-03-28 14:32:35,115:INFO:          setuptools: 75.8.2
+2025-03-28 14:32:35,115:INFO:             pycaret: 3.3.2
+2025-03-28 14:32:35,115:INFO:             IPython: 9.0.2
+2025-03-28 14:32:35,115:INFO:          ipywidgets: 8.1.5
+2025-03-28 14:32:35,115:INFO:                tqdm: 4.67.1
+2025-03-28 14:32:35,115:INFO:               numpy: 1.26.4
+2025-03-28 14:32:35,115:INFO:              pandas: 2.1.4
+2025-03-28 14:32:35,115:INFO:              jinja2: 3.1.6
+2025-03-28 14:32:35,115:INFO:               scipy: 1.11.4
+2025-03-28 14:32:35,115:INFO:              joblib: 1.3.2
+2025-03-28 14:32:35,115:INFO:             sklearn: 1.4.2
+2025-03-28 14:32:35,115:INFO:                pyod: 2.0.4
+2025-03-28 14:32:35,115:INFO:            imblearn: 0.13.0
+2025-03-28 14:32:35,116:INFO:   category_encoders: 2.7.0
+2025-03-28 14:32:35,116:INFO:            lightgbm: 4.6.0
+2025-03-28 14:32:35,116:INFO:               numba: 0.61.0
+2025-03-28 14:32:35,116:INFO:            requests: 2.32.3
+2025-03-28 14:32:35,116:INFO:          matplotlib: 3.7.5
+2025-03-28 14:32:35,116:INFO:          scikitplot: 0.3.7
+2025-03-28 14:32:35,116:INFO:         yellowbrick: 1.5
+2025-03-28 14:32:35,116:INFO:              plotly: 5.24.1
+2025-03-28 14:32:35,116:INFO:    plotly-resampler: Not installed
+2025-03-28 14:32:35,116:INFO:             kaleido: 0.2.1
+2025-03-28 14:32:35,116:INFO:           schemdraw: 0.15
+2025-03-28 14:32:35,116:INFO:         statsmodels: 0.14.4
+2025-03-28 14:32:35,116:INFO:              sktime: 0.26.0
+2025-03-28 14:32:35,116:INFO:               tbats: 1.1.3
+2025-03-28 14:32:35,116:INFO:            pmdarima: 2.0.4
+2025-03-28 14:32:35,116:INFO:              psutil: 7.0.0
+2025-03-28 14:32:35,116:INFO:          markupsafe: 3.0.2
+2025-03-28 14:32:35,116:INFO:             pickle5: Not installed
+2025-03-28 14:32:35,116:INFO:         cloudpickle: 3.1.1
+2025-03-28 14:32:35,116:INFO:         deprecation: 2.1.0
+2025-03-28 14:32:35,116:INFO:              xxhash: 3.5.0
+2025-03-28 14:32:35,116:INFO:           wurlitzer: 3.1.1
+2025-03-28 14:32:35,116:INFO:PyCaret optional dependencies:
+2025-03-28 14:32:35,124:INFO:                shap: Not installed
+2025-03-28 14:32:35,124:INFO:           interpret: Not installed
+2025-03-28 14:32:35,124:INFO:                umap: Not installed
+2025-03-28 14:32:35,124:INFO:     ydata_profiling: Not installed
+2025-03-28 14:32:35,124:INFO:  explainerdashboard: Not installed
+2025-03-28 14:32:35,124:INFO:             autoviz: 0.1.905
+2025-03-28 14:32:35,124:INFO:           fairlearn: Not installed
+2025-03-28 14:32:35,124:INFO:          deepchecks: Not installed
+2025-03-28 14:32:35,124:INFO:             xgboost: 1.6.2
+2025-03-28 14:32:35,124:INFO:            catboost: Not installed
+2025-03-28 14:32:35,124:INFO:              kmodes: Not installed
+2025-03-28 14:32:35,124:INFO:             mlxtend: Not installed
+2025-03-28 14:32:35,124:INFO:       statsforecast: Not installed
+2025-03-28 14:32:35,124:INFO:        tune_sklearn: Not installed
+2025-03-28 14:32:35,124:INFO:                 ray: Not installed
+2025-03-28 14:32:35,124:INFO:            hyperopt: Not installed
+2025-03-28 14:32:35,124:INFO:              optuna: Not installed
+2025-03-28 14:32:35,124:INFO:               skopt: 0.10.2
+2025-03-28 14:32:35,124:INFO:              mlflow: Not installed
+2025-03-28 14:32:35,124:INFO:              gradio: Not installed
+2025-03-28 14:32:35,124:INFO:             fastapi: Not installed
+2025-03-28 14:32:35,124:INFO:             uvicorn: Not installed
+2025-03-28 14:32:35,124:INFO:              m2cgen: Not installed
+2025-03-28 14:32:35,124:INFO:           evidently: Not installed
+2025-03-28 14:32:35,124:INFO:               fugue: Not installed
+2025-03-28 14:32:35,124:INFO:           streamlit: Not installed
+2025-03-28 14:32:35,124:INFO:             prophet: Not installed
+2025-03-28 14:32:35,124:INFO:None
+2025-03-28 14:32:35,124:INFO:Set up data.

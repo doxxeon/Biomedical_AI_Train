@@ -1,0 +1,13 @@
+# __pycache__ 폴더 무시
+__pycache__/
+*.pyc
+
+# 체크포인트 및 모델 저장 무시
+*.ckpt
+*.data-00000-of-00001
+*.index
+checkpoint
+.DS_StoreML/covid19_Daejeon/covid19_DJ.csv
+ML/covid19_seoul/covid19_seoul.csv
+ML/covid19_seoul/environment1.csv
+ML/covid19_seoul/environment2.csv

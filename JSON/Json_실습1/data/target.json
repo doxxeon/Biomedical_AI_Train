@@ -1,0 +1,8 @@
+{
+    "employee": {
+        "id": 123, 
+        "name": "Queen", 
+        "department": "HR", 
+        "skills": ["communication", "teamwork"]
+        }
+    }

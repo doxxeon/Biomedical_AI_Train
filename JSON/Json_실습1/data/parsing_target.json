@@ -1,0 +1,18 @@
+{
+    "filename": "parsing_target",
+
+    "vehicle_id": "AIMMO-ADCV1",
+    "region_name": "경기 성남시 분당구",
+    "location": "야탑동 487-1",
+    "length": 11,
+    "framerate": 10,
+    "data_purpose": "train",
+    "time": "day",
+    "road_feature": "r_cityroad",
+    "gps_latitude": 37.41473487066775,
+    "gps_longitude": 127.12871262424409,
+    "long_velocity": 14.86,
+    "lat_velocity": -0.13,
+    "long_accel": 0.25,
+    "lat_accel": -0.01
+}
